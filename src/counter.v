@@ -12,8 +12,8 @@ module counter(
 
 
 
-always@(posedge clk or negedge rst_n) begin
-    if(!rst_n) begin
+always@(posedge in_clk or negedge in_rst_n) begin
+    if(!in_rst_n) begin
         out_counter_value <= 0;
         out_ena <= 8'hff;
     end
