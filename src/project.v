@@ -25,6 +25,7 @@ module tt_um_example (
   counter counter_inst1(
     .in_load_value(uio_in),
     .in_load_now(ui_in[0]),
+    .in_write_now(ui_in[1]),
     .in_clk(clk),
     .in_rst_n(rst_n),
     .out_counter_value(uio_out),
