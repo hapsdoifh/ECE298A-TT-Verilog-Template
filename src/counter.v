@@ -23,7 +23,7 @@ always@(posedge in_clk or negedge in_rst_n) begin
     else begin
         out_counter_value <= out_counter_value + 1;
     end
-    out_ena = {8{in_write_now & ~in_load_now}};
+    out_ena <= {8{in_write_now & ~in_load_now}};
 end
 
 
