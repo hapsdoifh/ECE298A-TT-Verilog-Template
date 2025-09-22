@@ -21,7 +21,6 @@ module tt_um_example (
   // assign uio_out = 0;
   // assign uio_oe  = 0;
 
-  wire [7:0] counter_out;
   counter counter_inst1(
     .in_load_value(uio_in),
     .in_load_now(ui_in[0]),
@@ -35,6 +34,6 @@ module tt_um_example (
   assign uo_out  = 0;
 
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, clk, rst_n, 1'b0};
+  wire _unused = &{ena, clk, rst_n, 1'b0, uo_out};
 
 endmodule
