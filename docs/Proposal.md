@@ -25,17 +25,17 @@ We're still not sure about the sensivitiy since it's based on the noise, gain an
 ## **Responsibility & Timeline**
 
 Harry:
-
-- Resarch/prototyping differential amplifying and circuit layout
+- Calculate circuit parameters based on target values
 
 Benjamin:
+- Simulating circuit in SPICE
 
-- Calculate expected values based on circuit parameters  
-- Simulating circuit in SPICE and providing feedback on improvements
+Both:
+- Resarch/prototyping differential amplifying and circuit layout
 
 Timeline:
 Prototype circuit by end of reading week  
-Testing finished by start of November (?)
+Testing finished by start of November
 
 ## **Schematic**
 
