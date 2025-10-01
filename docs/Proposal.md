@@ -15,7 +15,8 @@ Differential Amplifier Configuration: Referring to Sedra & Smith 7th edition Fig
 | Operating Voltage | 1.8V |
 | Transistor Count | \6~10 |
 
-The target gain bandwidth, rise and fall times are chosen to be the maximum frequency of the clock signal a TT chip can generate. The target values for  gain and power consumption are mainly based on result values from previous research done on differential sense amplifiers. These research are done mostly using 180nm manufacturing technologies. We believe this means with the Skywater 130 manufacturing technique we can ideally get similar performances. 
+The target values for  gain and power consumption are mainly based on result values from previous research done on differential sense amplifiers. These research are done mostly using 180nm manufacturing technologies. We believe this means with the Skywater 130 manufacturing technique we can ideally get similar performances. 
+The target gain bandwidth, rise and fall times are chosen to be the maximum frequency of the clock signal a TT chip can generate. 
 A wide gain bandwith seems easily achievable with some studies achieving 1 GHz, since the TT clock only goes up to 66 MHz, we have set that as our target.
 Studies have been able to achieve ~200ps for rise and fall times. We're not sure about need for rise and fall times that fast so we again set it tentatively as 1s/66Mhz = ~15ns even though we will likely not using the full speed of the TT clock in the end.
 We have found some studies that used additional transitors to improve the performance of the amplifier but more research is needed to find a tradeoff between performance and space.
