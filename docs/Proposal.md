@@ -10,8 +10,8 @@ Differential Amplifier Configuration: Referring to Sedra & Smith 7th edition Fig
 | Gain Bandwidth | \> 66MHz |
 | Sensitivity | TBD? |
 | Power Consumption | 2 mW |
-| Rise Time | 200ps (or 15ns) |
-| Fall Time | 200ps (or 15ns) |
+| Rise Time | 15ns |
+| Fall Time | 15ns |
 | Operating Voltage | 1.8V |
 | Transistor Count | \~7 |
 
