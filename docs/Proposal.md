@@ -33,13 +33,8 @@ Testing finished by start of November
 
 ## **Schematic**
 
-## **![][image1]**
+![Alt text](Differential_Amplifier.png)
 
-## 
-
-## 
-
-## 
 
 ## **References**
 
